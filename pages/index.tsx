@@ -16,13 +16,18 @@ export default function Home() {
         </h1>
         
         <p className="text-xl mb-8">
-          This project demonstrates a simple YouTube-inspired interface with a modern signup form.
+          This project demonstrates a simple YouTube-inspired interface with a modern authentication system.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="/signup" 
             className="px-6 py-3 rounded-md bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors">
-            Go to Sign Up
+            Sign Up
+          </Link>
+          
+          <Link href="/login" 
+            className="px-6 py-3 rounded-md bg-gray-100 text-gray-800 font-semibold hover:bg-gray-200 transition-colors border border-gray-300">
+            Log In
           </Link>
           
           <a 
